@@ -1,1 +1,5 @@
-# Red-Wine-Quality---Decision-Tree---Pruning
+# Red Wine Quality - Decision Tree - Pruning
+
+Data pruning in Decision Tree Classifier refers to the process of reducing the size of the decision tree by removing branches that do not improve the accuracy of the model. The goal of data pruning is to avoid overfitting, which occurs when the model is too complex and fits the training data too well, resulting in poor performance on new, unseen data. Pruning is typically done by setting a threshold value for the minimum number of samples required to split a node, or by setting a maximum depth for the tree. By removing unnecessary branches, pruning can improve the generalization ability of the model and prevent overfitting.
+
+I analyzed the Red Wine dataset which is picked from Kaggle and found correlations among variables, which were visualized as positive or negative. Decision Tree Classifier is used to predict whether the data was overfitting. Additionally, Logistic Regression was used to identify important features. After eliminating outliers and pruning the data, the Decision Tree Classifier yielded good results in preventing overfitting.
